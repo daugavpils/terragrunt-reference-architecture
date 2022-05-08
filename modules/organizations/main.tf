@@ -35,7 +35,7 @@ output "this_organizations_organization_master_account_id" {
 // acme-prod
 resource "aws_organizations_account" "acme_prod" {
   name                       = "acme-prod"
-  email                      = "anton+acme-prod@antonbabenko.com"
+  email                      = "acme-prod@daugavpilss.info"
   iam_user_access_to_billing = "ALLOW"
   role_name                  = "admin"
 }
@@ -53,7 +53,7 @@ output "acme_prod_organizations_account_arn" {
 // acme-staging
 resource "aws_organizations_account" "acme_staging" {
   name                       = "acme-staging"
-  email                      = "anton+acme-prod@antonbabenko.com"
+  email                      = "acme-staging@daugavpilss.info"
   iam_user_access_to_billing = "ALLOW"
   role_name                  = "admin"
 }

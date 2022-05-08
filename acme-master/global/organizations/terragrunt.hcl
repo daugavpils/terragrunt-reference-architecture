@@ -1,5 +1,5 @@
 terraform {
-  source = "${get_parent_terragrunt_dir()}/../../modules/organizations"
+  source = "${get_parent_terragrunt_dir()}/../modules/organizations"
 }
 
 include {
